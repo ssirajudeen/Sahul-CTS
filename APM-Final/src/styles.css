@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+@import '~@swimlane/ngx-datatable/release/assets/icons.css';
+
+div.card-header {
+ font-size: large;
+}
+
+div.card {
+  margin-top: 10px
+}
+
+.table {
+  margin-top: 10px
+}
+.datatable-header{
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+.ngx-datatable.fixed-header .datatable-header .datatable-header-inner .datatable-header-cell, .ngx-datatable.bootstrap .datatable-body .datatable-body-row .datatable-body-cell{
+  border: 1px solid #ededed;
+}
+.ngx-datatable.bootstrap .datatable-footer{
+  background: none;
+}
+.ngx-datatable.bootstrap .datatable-footer, .ngx-datatable.bootstrap .datatable-footer .datatable-pager a{
+  color:#000000;
+}
